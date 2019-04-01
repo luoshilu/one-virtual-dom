@@ -1,0 +1,29 @@
+{
+  "name": "one-virtual-dom",
+  "version": "1.0.0",
+  "author": "luoshilu",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rollup": "2.14.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.11.0",
+    "rollup": "0.45.1",
+    "rollup-plugin-babel": "2.7.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  "main": "./src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp server"
+  },
+  "description": "one-virtual-dom"
+}
